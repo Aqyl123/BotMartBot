@@ -31,6 +31,12 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+	if message.content.startswith('!help'):
+		embed = discord.Embed(title="Help", url="https://botmart.io/", color=0x000000)
+		embed.set_thumbnail(url="https://pbs.twimg.com/profile_images/1267863044945838081/n6LkbAGd_400x400.jpg")
+		embed.add_field(name="Commands:", value="!fleek\n!kilo\n!resellaio\n!northcop\n!alerts\n!cookology")
+		embed.set_footer(text="Created by @Aqyl_")
+		await message.channel.send(embed=embed)
 	if message.content.startswith('!fleek'):
 		embed = discord.Embed(title="{}".format(name), url="https://botmart.io/product-details/fleek14065", description="{}".format(description), color=0x00E5FF)
 		embed.set_thumbnail(url="{}".format(picture))
