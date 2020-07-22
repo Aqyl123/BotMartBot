@@ -12,6 +12,9 @@ GET STARTED:
 
 Use `python botmart.py` to start.
 
+UPDATE  (7/22/20):
+- Fixed the 'Supports:' section to be fully automated now.
+
 <b>DISCLAIMER: As this is a fairly new site and there hasn't been much activity on the site, some of the prices won't be there and some Lifetime prices will not show up as there are no records of sales/listings on the site. I will update the bot as soon as some more traffic is brought to the site.</b>
 
 <img src="https://i.imgur.com/xFJKF6B.png">
