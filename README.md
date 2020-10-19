@@ -18,6 +18,7 @@ UPDATE  (10/19/20):
 - Added SolydBot to bots.
 - Removed Kilo from bots.
 - Temporarily removed Fleek from bots due to no sale activity.
+- Updated `!help` command.
 
 TO DO (10/19/20):
 - Add Bandar's Bounties to groups.
